@@ -7,6 +7,12 @@
         static Manager()
         {
             VbaConnector = new ShapeListener();
+
+        }
+
+        public static ShapeListener RequestListener()
+        {
+            return VbaConnector;
         }
     }
 }
